@@ -8,7 +8,10 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
         dolor ducimus dignissimos deserunt, adipisci fuga corrupti cupiditate
         enim obcaecati sequi. Tempora odit laudantium odio et pariatur ea in
-        labore repellat?
+        labore repellat? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Cum, obcaecati ratione possimus tempora mollitia doloremque vel
+        eos labore itaque illo explicabo earum maiores nostrum laboriosam quae
+        provident quas consequuntur. Cupiditate?
       </p>
     </section>
   );
