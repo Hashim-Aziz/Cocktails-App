@@ -11,7 +11,10 @@ const About = () => {
         labore repellat? Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Cum, obcaecati ratione possimus tempora mollitia doloremque vel
         eos labore itaque illo explicabo earum maiores nostrum laboriosam quae
-        provident quas consequuntur. Cupiditate?
+        provident quas consequuntur. Cupiditate? Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Aspernatur magni magnam ex officia minus
+        aliquam sequi adipisci perspiciatis a earum similique eaque, deserunt,
+        nam quia repellendus non iure. Quod, eius.
       </p>
     </section>
   );
