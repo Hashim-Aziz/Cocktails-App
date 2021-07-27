@@ -14,7 +14,10 @@ const About = () => {
         provident quas consequuntur. Cupiditate? Lorem ipsum dolor sit, amet
         consectetur adipisicing elit. Aspernatur magni magnam ex officia minus
         aliquam sequi adipisci perspiciatis a earum similique eaque, deserunt,
-        nam quia repellendus non iure. Quod, eius.
+        nam quia repellendus non iure. Quod, eius. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Voluptates non magni doloribus nam quo
+        saepe dicta omnis natus animi architecto reprehenderit, modi tenetur.
+        Ullam eum accusamus est sunt hic! Incidunt!
       </p>
     </section>
   );
