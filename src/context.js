@@ -8,6 +8,46 @@ const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("a");
   const [cocktails, setCocktails] = useState([]);
+
+  const fetchdrinks = async () => {
+    setLoading(true);
+    try {
+      const response = await fetch(`${url}${searchTerm}`);
+      const data = await response.json();
+      const { drinks } = data;
+      if (drinks) {
+        setLoading(false);
+        const newdrinks = drinks.map((item) => {
+          const {
+            idDrink,
+            strDrink,
+            strDrinkThumb,
+            strAlcoholic,
+            strGlass,
+          } = item;
+          return {
+            id: idDrink,
+            name: strDrink,
+            image: strDrinkThumb,
+            info: strAlcoholic,
+            glass: strGlass,
+          };
+        });
+        setCocktails(newdrinks);
+      } else {
+        setLoading(false);
+        setCocktails([]);
+      }
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchdrinks();
+  }, [searchTerm]);
+
   return (
     <AppContext.Provider
       value={{
