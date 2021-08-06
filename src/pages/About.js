@@ -17,7 +17,10 @@ const About = () => {
         nam quia repellendus non iure. Quod, eius. Lorem, ipsum dolor sit amet
         consectetur adipisicing elit. Voluptates non magni doloribus nam quo
         saepe dicta omnis natus animi architecto reprehenderit, modi tenetur.
-        Ullam eum accusamus est sunt hic! Incidunt!
+        Ullam eum accusamus est sunt hic! Incidunt! Lorem ipsum dolor sit amet
+        consectetur, adipisicing elit. Eius atque sequi libero? Laudantium ipsa
+        facere hic enim iure adipisci incidunt animi placeat architecto iusto,
+        eum eligendi vel cumque voluptatem tempore!
       </p>
     </section>
   );
