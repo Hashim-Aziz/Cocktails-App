@@ -5,6 +5,7 @@ const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
   const searchValue = React.useRef("");
 
+  //use when page load by default cursor focus on search text box
   React.useEffect(() => {
     searchValue.current.focus();
   }, []);

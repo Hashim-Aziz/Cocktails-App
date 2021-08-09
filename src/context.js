@@ -9,6 +9,7 @@ const AppProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("a");
   const [cocktails, setCocktails] = useState([]);
 
+  //useCallback is use to strict when searchTerm is change then call this function
   const fetchdrinks = useCallback(async () => {
     setLoading(true);
     try {
